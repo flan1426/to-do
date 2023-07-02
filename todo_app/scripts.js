@@ -69,7 +69,7 @@ function getTasks() {
             taskList.innerHTML = "";
 
             // Add each task to the list
-            data.tasks.forEach(task => {
+            data.forEach(task => {
                 let listItem = document.createElement("li");
 
                 let checkbox = document.createElement("input");
