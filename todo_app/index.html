@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple To-Do App</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div id="todo-app">
+            <input type="text" id="task" placeholder="What needs to be done?">
+            <input type="datetime-local" id="dueTime">
+            <button id="add-task">Add Task</button>
+            
+            <div id="search-container">
+                <input type="text" id="search-query" placeholder="Search tasks">
+                <button id="search-button">Search</button>
+            </div>
+            
+            <ul id="todo-list"></ul>
+        </div>
+        <script src="scripts.js" defer></script>
+    </body>
+</html>

@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#todo-app {
+    width: 300px;
+    margin: 0 auto;
+}
+
+#task, #dueTime {
+    width: 80%;
+    padding: 5px;
+}
+
+button {
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+li.done {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.delete-button {
+    float: right;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+.todo-text {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.todo-time {
+    margin-left: auto;
+    margin-right: 10px;
+}
